@@ -217,7 +217,7 @@ header {
 .main-content p {
     color: var(--mediumGray);
     padding: 10px 20px 20px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 .main-content button {
     padding: 10px 20px;
@@ -262,6 +262,23 @@ header {
     }
     .second-links .btn {
         margin-left: 10% !important;
+    }
+    .main-content h1 {
+        font-size: 45px;
+    }
+    .main-content p {
+        padding: 10px 20px 20px;
+        line-height: 2;
+        font-size: 13px;
+    }
+    .img-container #databiz, .img-container #audiophile, .img-container #meet, .img-container #maker {
+        padding: 5px;
+        margin: 10px 0;
+        width: 70px;
+    }
+    .main-content #rp {
+        width: 100%;
+        height: 75vh;
     }
 }
 
@@ -345,5 +362,9 @@ header {
     }
     .main-content {
         margin-top: 150px;
+    }
+    .main-content #rp {
+        width: 100%;
+        height: 65vh;
     }
 }
