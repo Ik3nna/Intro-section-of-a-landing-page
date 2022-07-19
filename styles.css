@@ -285,7 +285,7 @@ header {
 @media (max-width: 767px) {
     .hamburger-menu {
         display: flex;
-        position: fixed;
+        position: absolute;
         right: 50px;
         top: 25px;
     }
